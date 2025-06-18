@@ -12,8 +12,8 @@ from supabase import create_client, Client
 import unicodedata
 
 
-SUPABASE_URL = "https://vclqitdwcauavrfuanlg.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZjbHFpdGR3Y2F1YXZyZnVhbmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAwNzUxOTUsImV4cCI6MjA2NTY1MTE5NX0.w54RuKsYmR59JhOBz5Fm2Go2Ruf2LWfiPiIxVaoqLOQ"
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def carregar_historico(username):
