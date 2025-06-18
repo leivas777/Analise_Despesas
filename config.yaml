@@ -1,0 +1,15 @@
+cookie:
+  expiry_days: 30
+  key: abcdef
+  name: app_financas
+credentials:
+  usernames:
+    Guto:
+      name: Guto
+      password: $2b$12$97qN59q54ua8IVaqx2ffdOusFSsBxt9i.Q2y1DMS8YKhAJlyn/9Am
+    Regis:
+      name: Regis
+      password: $2b$12$eDukO4UNXMBuDw8tcag9UOgsmPZBolM6JVhrYCRdlHVd4uSQv1ndO
+    fe:
+      name: Fe
+      password: $2b$12$MF8VhvApiQGSt10uMfyrA.kWbuhrTuwcpJ91rPMJXFf2ZwznWUmdG
